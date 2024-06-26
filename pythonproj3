@@ -1,0 +1,13 @@
+
+Computers ={
+  "Laptop1" : {"brand" : "DELL","OS" : "Windows"},
+  "Laptop2" : {"brand" : "HP", "OS" : "Linux"},
+  "Desktop" : {"brand" : "Apple","OS" : "Mac-OS"}
+}
+brand = []
+OS = []
+for i in Computers:
+    brand.append(Computers[i]["brand"])
+    OS.append(Computers[i]["OS"])
+print(brand)
+print(OS)
